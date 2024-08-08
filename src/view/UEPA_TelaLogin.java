@@ -35,6 +35,7 @@ public class UEPA_TelaLogin extends javax.swing.JFrame {
         jbl_Senha = new javax.swing.JLabel();
         Senha = new javax.swing.JPasswordField();
         Btn_Logar = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 249, 235));
@@ -54,12 +55,11 @@ public class UEPA_TelaLogin extends javax.swing.JFrame {
 
         txt_Usuario.setBackground(new java.awt.Color(153, 153, 255));
         txt_Usuario.setForeground(new java.awt.Color(0, 0, 0));
-        txt_Usuario.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        txt_Usuario.setBorder(null);
         txt_Usuario.setCaretColor(new java.awt.Color(0, 0, 0));
         txt_Usuario.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         txt_Usuario.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txt_Usuario.setMaximumSize(new java.awt.Dimension(100, 50));
-        txt_Usuario.setOpaque(true);
         txt_Usuario.setSelectedTextColor(new java.awt.Color(0, 0, 0));
         txt_Usuario.setSelectionColor(new java.awt.Color(0, 0, 0));
         txt_Usuario.addActionListener(new java.awt.event.ActionListener() {
@@ -85,7 +85,7 @@ public class UEPA_TelaLogin extends javax.swing.JFrame {
         jbl_Senha.setBounds(60, 100, 60, 30);
 
         Senha.setBackground(new java.awt.Color(153, 153, 255));
-        Senha.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        Senha.setBorder(null);
         Senha.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 SenhaActionPerformed(evt);
@@ -105,12 +105,16 @@ public class UEPA_TelaLogin extends javax.swing.JFrame {
             }
         });
         jPanel1.add(Btn_Logar);
-        Btn_Logar.setBounds(220, 150, 110, 30);
+        Btn_Logar.setBounds(210, 150, 110, 30);
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icon_user.png"))); // NOI18N
+        jPanel1.add(jLabel1);
+        jLabel1.setBounds(-30, -10, 370, 290);
 
         getContentPane().add(jPanel1);
-        jPanel1.setBounds(0, 0, 500, 250);
+        jPanel1.setBounds(10, 0, 440, 210);
 
-        setBounds(0, 0, 473, 230);
+        setBounds(0, 0, 473, 252);
     }// </editor-fold>//GEN-END:initComponents
 
     private void SenhaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SenhaActionPerformed
@@ -160,6 +164,7 @@ public class UEPA_TelaLogin extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Btn_Logar;
     private javax.swing.JPasswordField Senha;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel jbl_Senha;
     private javax.swing.JLabel jbl_Usuario;

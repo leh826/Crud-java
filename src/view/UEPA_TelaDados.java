@@ -46,10 +46,10 @@ public class UEPA_TelaDados extends javax.swing.JFrame {
         Text_CPF = new javax.swing.JFormattedTextField();
         Text_Matricula = new javax.swing.JFormattedTextField();
         btnLimpar = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel2.setBackground(new java.awt.Color(204, 204, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel2.setLayout(null);
 
@@ -77,7 +77,7 @@ public class UEPA_TelaDados extends javax.swing.JFrame {
         jPanel2.add(jbl_Turma);
         jbl_Turma.setBounds(50, 270, 60, 30);
 
-        Text_Nome.setBackground(new java.awt.Color(255, 255, 255));
+        Text_Nome.setBackground(new java.awt.Color(204, 204, 204));
         Text_Nome.setForeground(new java.awt.Color(51, 51, 51));
         Text_Nome.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(102, 102, 102)), new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED)));
         Text_Nome.addActionListener(new java.awt.event.ActionListener() {
@@ -96,7 +96,7 @@ public class UEPA_TelaDados extends javax.swing.JFrame {
         jPanel2.add(jbl_Nome);
         jbl_Nome.setBounds(50, 60, 50, 30);
 
-        Text_Curso.setBackground(new java.awt.Color(255, 255, 255));
+        Text_Curso.setBackground(new java.awt.Color(204, 204, 204));
         Text_Curso.setForeground(new java.awt.Color(51, 51, 51));
         Text_Curso.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(102, 102, 102)), new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED)));
         Text_Curso.addActionListener(new java.awt.event.ActionListener() {
@@ -113,7 +113,7 @@ public class UEPA_TelaDados extends javax.swing.JFrame {
         jPanel2.add(jbl_Endereco);
         jbl_Endereco.setBounds(50, 330, 80, 30);
 
-        Text_Endereco.setBackground(new java.awt.Color(255, 255, 255));
+        Text_Endereco.setBackground(new java.awt.Color(204, 204, 204));
         Text_Endereco.setForeground(new java.awt.Color(51, 51, 51));
         Text_Endereco.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(102, 102, 102)), new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED)));
         Text_Endereco.addActionListener(new java.awt.event.ActionListener() {
@@ -130,11 +130,11 @@ public class UEPA_TelaDados extends javax.swing.JFrame {
         jPanel2.add(jbl_Matricula);
         jbl_Matricula.setBounds(50, 380, 80, 30);
 
-        Btn_confirmar.setBackground(new java.awt.Color(57, 222, 17));
-        Btn_confirmar.setFont(new java.awt.Font("Segoe UI Black", 1, 12)); // NOI18N
+        Btn_confirmar.setBackground(new java.awt.Color(0, 102, 0));
+        Btn_confirmar.setFont(new java.awt.Font("Arial Black", 1, 12)); // NOI18N
         Btn_confirmar.setForeground(new java.awt.Color(0, 0, 0));
         Btn_confirmar.setText("Confirmar");
-        Btn_confirmar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Btn_confirmar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Btn_confirmar.setBorderPainted(isResizable());
         Btn_confirmar.setMargin(new java.awt.Insets(3, 14, 3, 14));
         Btn_confirmar.addActionListener(new java.awt.event.ActionListener() {
@@ -143,13 +143,13 @@ public class UEPA_TelaDados extends javax.swing.JFrame {
             }
         });
         jPanel2.add(Btn_confirmar);
-        Btn_confirmar.setBounds(140, 470, 240, 40);
+        Btn_confirmar.setBounds(70, 470, 240, 40);
 
         Btn_listadealunos.setBackground(new java.awt.Color(61, 58, 176));
         Btn_listadealunos.setFont(new java.awt.Font("Segoe UI Black", 1, 12)); // NOI18N
         Btn_listadealunos.setForeground(new java.awt.Color(255, 255, 255));
         Btn_listadealunos.setText("Visualizar lista de alunos");
-        Btn_listadealunos.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Btn_listadealunos.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         Btn_listadealunos.setBorderPainted(isResizable());
         Btn_listadealunos.setMargin(new java.awt.Insets(3, 14, 3, 14));
         Btn_listadealunos.addActionListener(new java.awt.event.ActionListener() {
@@ -160,7 +160,7 @@ public class UEPA_TelaDados extends javax.swing.JFrame {
         jPanel2.add(Btn_listadealunos);
         Btn_listadealunos.setBounds(60, 590, 410, 50);
 
-        Text_Telefone.setBackground(new java.awt.Color(255, 255, 255));
+        Text_Telefone.setBackground(new java.awt.Color(204, 204, 204));
         Text_Telefone.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED)));
         Text_Telefone.setForeground(new java.awt.Color(0, 0, 0));
         try {
@@ -171,7 +171,7 @@ public class UEPA_TelaDados extends javax.swing.JFrame {
         jPanel2.add(Text_Telefone);
         Text_Telefone.setBounds(130, 210, 150, 30);
 
-        Text_Turma.setBackground(new java.awt.Color(255, 255, 255));
+        Text_Turma.setBackground(new java.awt.Color(204, 204, 204));
         Text_Turma.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED)));
         Text_Turma.setForeground(new java.awt.Color(0, 0, 0));
         try {
@@ -182,7 +182,7 @@ public class UEPA_TelaDados extends javax.swing.JFrame {
         jPanel2.add(Text_Turma);
         Text_Turma.setBounds(130, 270, 150, 30);
 
-        Text_CPF.setBackground(new java.awt.Color(255, 255, 255));
+        Text_CPF.setBackground(new java.awt.Color(204, 204, 204));
         Text_CPF.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED)));
         Text_CPF.setForeground(new java.awt.Color(0, 0, 0));
         try {
@@ -193,7 +193,7 @@ public class UEPA_TelaDados extends javax.swing.JFrame {
         jPanel2.add(Text_CPF);
         Text_CPF.setBounds(130, 110, 340, 30);
 
-        Text_Matricula.setBackground(new java.awt.Color(255, 255, 255));
+        Text_Matricula.setBackground(new java.awt.Color(204, 204, 204));
         Text_Matricula.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED)));
         Text_Matricula.setForeground(new java.awt.Color(0, 0, 0));
         try {
@@ -204,24 +204,30 @@ public class UEPA_TelaDados extends javax.swing.JFrame {
         jPanel2.add(Text_Matricula);
         Text_Matricula.setBounds(130, 380, 150, 30);
 
-        btnLimpar.setBackground(new java.awt.Color(255, 255, 255));
+        btnLimpar.setBackground(new java.awt.Color(51, 51, 51));
+        btnLimpar.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        btnLimpar.setForeground(new java.awt.Color(255, 255, 255));
         btnLimpar.setText("Limpar");
+        btnLimpar.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         btnLimpar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLimparActionPerformed(evt);
             }
         });
         jPanel2.add(btnLimpar);
-        btnLimpar.setBounds(200, 530, 140, 40);
+        btnLimpar.setBounds(330, 470, 120, 40);
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/fundo.jpg"))); // NOI18N
+        jPanel2.add(jLabel2);
+        jLabel2.setBounds(-360, 0, 930, 700);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 554, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 572, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 9, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -288,6 +294,7 @@ public class UEPA_TelaDados extends javax.swing.JFrame {
     private javax.swing.JFormattedTextField Text_Telefone;
     private javax.swing.JFormattedTextField Text_Turma;
     private javax.swing.JButton btnLimpar;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JLabel jbl_CPF;
     private javax.swing.JLabel jbl_Curso;

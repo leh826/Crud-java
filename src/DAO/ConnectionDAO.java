@@ -20,7 +20,7 @@ public class ConnectionDAO {
 
     public Connection connectionBD() {
         try {
-            conn = DriverManager.getConnection(url);// ,user,password);
+            conn = DriverManager.getConnection(url);
             return conn;
         } catch (SQLException erro) {
             JOptionPane.showMessageDialog(null, "don't conected to database\n ERRO:" + erro.getMessage());
