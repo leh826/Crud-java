@@ -14,7 +14,7 @@ Nesta tela visulizamos todos os registros salvos na nossa base de dados.
 
 ![Tela de Registo](.../../src/img/tela-de-registros.png)
 ## Tela de Visualização de Registros - Button Carregar Itens
-Para que possamos alterar um registro, clicamos no registro desejado e usamos o button "Carregar Itens"  que carrega para os labels, ao lado da tabela de registros, as informações do registro clicado. Conforme visualiza-se na imagem.
+Para que possamos alterar um registro, clicamos no registro desejado e usamos o button "Carregar Itens"  que carrega para os inputs, ao lado da tabela de registros, as informações do registro clicado. Conforme visualiza-se na imagem.
 - Observações: a matrícula pode ser alterada, no entanto o ID deixei bloqueado, pois é utilizado para fazer a busca do registro no banco de dados e essa medida foi realizada para evitar erros.
 
 ![Tela de Registo](.../../src/img/registro-carregado.png)
