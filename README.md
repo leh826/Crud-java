@@ -24,7 +24,7 @@ Agora para confirmar a alteração realizada, precisa-se clicar no button "Alter
 <br> Agora, digamos que deseja deletar um registro, para isso, seguimos o passo de clicar no registro desejado e para confirmar que deseja deletar clica-se no button "Deletar", a tabela de registros é atualizada automaticamente.
 ![Tela de Registo](.../../src/img/registro-alterar-e-deletar.png)
 
-### Para saber mais detalhes do código pode utilize o sumário abaixo, meu crud foi realizado com o pradão MVC.
+### Para saber mais detalhes do código utilize o sumário abaixo, meu crud foi realizado com o pradão MVC.
 
 ## Sumário 
 - [Pasta VIEW](./src/view/)
